@@ -41,7 +41,7 @@ class _StateManagementGetXState extends State<StateManagementGetX> {
           ),
         ),
 
-      ),
+      ), 
 
 
     );
