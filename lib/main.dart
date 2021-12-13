@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Dailog_Getx/dialog.dart';
 import 'SnackBar_Getx/snackbar_getx.dart';
+import 'obx/State Management GetX.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Dialogs(),
+      home: StateManagementGetX(),
     );
   }
 }
