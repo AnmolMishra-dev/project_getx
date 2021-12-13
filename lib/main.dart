@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Dailog_Getx/dialog.dart';
 import 'SnackBar_Getx/snackbar_getx.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Snackbar(),
+      home: Dialogs(),
     );
   }
 }
